@@ -1,0 +1,20 @@
+{
+  "name": "flashbots-ctf-ts-yarn3",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "start": "ts-node mevShareCTFNewContracts.ts"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@flashbots/mev-share-client": "^0.7.6",
+    "async-mutex": "^0.4.0",
+    "ethers": "^6.7.0"
+  }
+}
